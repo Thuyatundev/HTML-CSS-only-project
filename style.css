@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hm-blg {
+    background-image: url("img/TYT.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 580px;
+}
+
+.hm-text {
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.hm-text p {
+    width: 450px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.hm-text p::first-letter {
+    color: red;
+    font-size: larger;
+}
+
+ul {
+    background-color: rgb(80, 145, 145);
+    margin-top: 0;
+    text-align: center;
+    opacity: 0.6;
+}
+
+ul:hover {
+    opacity: 0.9;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+#abt {
+    background-color: rgb(80, 145, 145);
+    padding: 20px;
+}
+
+.abt-blg {
+    width: 100%;
+    height: 300px;
+}
+
+.abt-head {
+    width: 50%;
+    text-align: left;
+    padding-left: 220px;
+    padding-bottom: 20px;
+}
+
+.abt-para {
+    padding-left: 220px;
+    text-indent: 30px;
+    width: 50%;
+    text-align: justify;
+}
+
+.abt-blg {
+    height: 250px;
+    background-size: contain;
+    background-image: url("img/img-1.JPG");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 30px;
+    width: fit-content;
+}
+
+.edu-header {
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.edu-card {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid rgb(80, 145, 145);
+    border-radius: 20px 40px 20px 40px;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    box-shadow: 4px 4px 4px 1px rgb(107, 103, 103);
+}
+
+.edu-card .edu-head {
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    font-size: larger;
+    text-align: center;
+    border: 1px solid rgb(80, 145, 145);
+    border-radius: 20px 40px 20px 40px;
+    background-color: rgb(80, 145, 145);
+    color: white;
+}
+
+.edu-para {
+    padding-top: 70px;
+    height: 150px;
+    font-size: 30px;
+}
+
+.edu-card button {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(80, 145, 145);
+    color: white;
+    border: none;
+
+}
+
+span {
+    color: red;
+    font-size: medium;
+}
+
+#exp{
+    clear: both;
+}
+
+.exp-blg h2{
+    padding-top: 20px;
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.exp-card{
+    width: 28%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid rgb(80, 145, 145);
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    box-shadow: 4px 4px 4px 1px rgb(138, 135, 135);
+}
+
+.exp-head{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(87, 156, 122);
+    border: 1px solid rgba(104, 5, 196, 0.2);
+}
+
+.exp-para{
+    text-align: justify;
+    padding: 25px;
+}
+
+#cont{
+    clear: both;
+    width: 100%;
+    height: auto;
+    background-color: rgb(135, 201, 121);
+}
+
+#cont h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.cont-blg p{
+    /* padding-left: 250px; */
+    padding: 20px;
+    width: 28%;
+    text-align: center;
+    display: inline-block;
+}
